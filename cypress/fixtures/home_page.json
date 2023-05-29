@@ -1,0 +1,14 @@
+{
+  "website_title": "PRODUCT STORE",
+  "user_name": "ashik",
+  "user_password": "ashik",
+  "body": "Fixtures are a great way to mock data for responses to routes",
+  "contents": ["Home", "Contact", "About us", "Cart", "Log in", "Sign up"],
+  "navbar_length": 6,
+  "categorizes": ["Phones", "Laptops", "Monitors"],
+  "aboutUsText": "We believe performance needs to be validated at every stage of the software development cycle and our open source compatible, massively scalable platform makes that a reality.",
+  "address": "Address: 2390 El Camino Real",
+  "phone": "Phone: +440 123456",
+  "email": "Email: demo@blazemeter.com",
+  "copywright_text": "Copyright © Product Store 2017"
+}
