@@ -44,6 +44,10 @@ class HomePage {
     getContactPage(){
         return cy.get("#navbarExample ul li:nth-child(2)")
     }
+    getAboutPopUp(){
+        return cy.get('#navbarExample ul li:nth-child(3)')
+    }
+
 }
 
 export default HomePage;

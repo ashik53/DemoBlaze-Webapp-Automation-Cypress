@@ -8,20 +8,10 @@ describe("After Login - Home Page content verification", function () {
   beforeEach(() => {
     cy.fixture("home_page").then(function (data) {
       this.data = data;
+      cy.login(this.data.user_name, this.data.user_password)
     });
-    cy.visit(Cypress.env("url"));
-    cy.get("#login2").click();
-    cy.wait(4000);
-
-    cy.fixture("home_page").then(function (data) {
-      this.data = data;
-      cy.get("#loginusername").type(this.data.user_name);
-      cy.get("#loginpassword").type(this.data.user_password);
-    });
-    homePage.getClickLoginButton().click();
-
-    cy.wait(7000);
-
+    //login
+    
     //Verify after login Welcome {username} will be displayed
 
     cy.fixture("home_page").then(function (data) {

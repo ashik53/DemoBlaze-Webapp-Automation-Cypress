@@ -24,4 +24,21 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
+import HomePage from "../integration/pageObjects/HomePage";
 
+const homePage = new HomePage();
+
+Cypress.Commands.add('login', (username, password)=> {
+    cy.visit(Cypress.env("url"));
+    cy.get("#login2").click();
+    cy.wait(4000);
+
+    cy.fixture("home_page").then(function (data) {
+      this.data = data;
+      cy.get("#loginusername").type(username);
+      cy.get("#loginpassword").type(password);
+    });
+    homePage.getClickLoginButton().click();
+
+    cy.wait(7000);
+})
