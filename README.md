@@ -1,5 +1,5 @@
 # DemoBlaze-WebApp-Automation-Framework-Cypress
-### DemoBlaze E-commerce Web Application Automation by Cypress 12
+### [DemoBlaze E-commerce Web Application](https://www.demoblaze.com/) Automation by Cypress 12
 ### Used Tools/Languages/Frameworks
 - Cypress
 - Chai
@@ -22,4 +22,22 @@ Sample Product Purchase and Order end-to-end workflow
 <img src ="https://github.com/ashik53/DemoBlaze-Webapp-Automation-Cypress/blob/master/cypress/reports/html/PurchaseOrderProduct_Test.js.gif" >
 
 ### Installation
+1. Install Node.js and npm in your system
+2. Clone the project
+   ```
+   git clone https://github.com/ashik53/DemoBlaze-Webapp-Automation-Cypress.git
+   ```
+3. cd into the Project repository
+   ```
+   cd DemoBlaze-Webapp-Automation-Cypress
+   ```
+4. Install npm
+     ```
+   npm install
+   ```
+5. run the following command to run your automation scripts
+    ```
+   npx cypress open
+   ```
+
 
