@@ -1,5 +1,5 @@
 /// <reference types="cypress" />
-import HomePage from "./pageObjects/HomePage";
+import HomePage from "../pageObjects/HomePage";
 
 const homePage = new HomePage();
 

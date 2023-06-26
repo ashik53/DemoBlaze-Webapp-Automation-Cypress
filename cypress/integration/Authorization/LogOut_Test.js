@@ -1,6 +1,6 @@
 // <reference types="cypress" />
 
-import HomePage from "../integration/pageObjects/HomePage";
+import HomePage from "../pageObjects/HomePage";
 
 const homePage = new HomePage();
 
