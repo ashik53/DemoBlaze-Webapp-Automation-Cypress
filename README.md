@@ -34,7 +34,7 @@ Sample Product Purchase and Order end-to-end workflow
    ```
    cd DemoBlaze-Webapp-Automation-Cypress
    ```
-4. Install npm
+4. Install dependencies
      ```
    npm install
    ```
