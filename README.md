@@ -21,6 +21,8 @@ Sample Product Purchase and Order end-to-end workflow
 
 <img src ="https://github.com/ashik53/DemoBlaze-Webapp-Automation-Cypress/blob/master/cypress/reports/html/PurchaseOrderProduct_Test.js.gif" >
 
+### Sample Report
+<img src ="https://github.com/ashik53/DemoBlaze-Webapp-Automation-Cypress/blob/master/cypress/reports/html/report_screenshot.PNG" >
 ### Installation
 1. Install Node.js and npm in your system
 2. Clone the project
